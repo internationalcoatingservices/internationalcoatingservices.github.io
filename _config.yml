@@ -1,0 +1,22 @@
+# Site settings
+organisation: International Coating Services
+title: International Coating Services
+email: info@internationalcoatingservices.com
+url: https://www.internationalcoatingservices.com
+baseurl: 
+description: "Protective Coatings Application Specialists"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  text: rgba(17,17,17,1.0)
+  background: rgba(255,255,255,1.0)
+  borders: rgba(17,17,17,1.0)
+  highlight: rgba(17,17,17,0.03)
+  selection: rgba(17,17,17,0.03)
+  links: rgba(16,16,128,1.0)
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+host: 0.0.0.0
