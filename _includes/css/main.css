@@ -90,12 +90,33 @@ header #intro-scroll {
 }
 
 #intro-logo {
-    background: url({{"/img/syf-gaps-r1-stroked-white.svg" | prepend: site.baseurl}}) no-repeat center center scroll;
-    margin-top: 50px
+    background: url({{"/img/ics-logo-512-draft.png" | prepend: site.baseurl}}) no-repeat center center scroll;
+    background-size: auto 200px;
+    margin-top: 50px;
     margin-bottom: 50px;
     height: 200px;
-    background-size: auto 200px;
 }
+
+#syf-brand-logo {
+    background: url({{"/img/syf-gaps-r1-stroked.svg" | prepend: site.baseurl}}) no-repeat center center scroll;
+    background-size: 250px auto;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    height: 130px;
+}
+
+#ics-brand-logo {    
+    background: url({{"/img/ics-logo-512-draft.png" | prepend: site.baseurl}}) no-repeat center center scroll;
+    background-size: 150px auto;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    height: 150px;
+}
+
+.brand-logo {
+    
+}
+
 
 section {
     height: 100%;
