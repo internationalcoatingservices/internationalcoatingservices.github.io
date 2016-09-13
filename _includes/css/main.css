@@ -90,7 +90,7 @@ header #intro-scroll {
 }
 
 #intro-logo {
-    background: url({{"/img/ics-logo-512-draft.png" | prepend: site.baseurl}}) no-repeat center center scroll;
+    background: url({{"/img/ICS-logo-black.png" | prepend: site.baseurl}}) no-repeat center center scroll;
     background-size: auto 200px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -106,7 +106,7 @@ header #intro-scroll {
 }
 
 #ics-brand-logo {    
-    background: url({{"/img/ics-logo-512-draft.png" | prepend: site.baseurl}}) no-repeat center center scroll;
+    background: url({{"/img/ICS-logo-black.png" | prepend: site.baseurl}}) no-repeat center center scroll;
     background-size: 150px auto;
     margin-top: 50px;
     margin-bottom: 0px;
