@@ -107,7 +107,7 @@ header #intro-scroll {
 
 #ics-brand-logo {    
     background: url({{"/img/ICS-logo-black.png" | prepend: site.baseurl}}) no-repeat center center scroll;
-    background-size: 150px auto;
+    background-size: auto 150px;
     margin-top: 50px;
     margin-bottom: 0px;
     height: 150px;
