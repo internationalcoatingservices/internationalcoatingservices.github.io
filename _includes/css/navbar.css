@@ -20,6 +20,13 @@
     color: {{ site.color.text }};
 }
 
+.navbar-toggle {
+    padding-top: 16px;
+    padding-right: 16px;
+    margin: 0;
+    border: 0;
+}
+
 .navbar-custom .navbar-brand .navbar-toggle:focus,
 .navbar-custom .navbar-brand .navbar-toggle:active {
     outline: 0;
