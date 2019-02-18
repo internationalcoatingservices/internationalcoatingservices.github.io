@@ -1,9 +1,9 @@
 .navbar-custom {
     margin-bottom: 0;
-    border-bottom: 1px solid {{ site.color.border }};
+    border-bottom: 1px solid $color-borders;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: {{ site.color.background }};
+    background-color: $color-background;
 }
 
 .navbar-custom .navbar-brand {
@@ -17,7 +17,7 @@
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: {{ site.color.text }};
+    color: $color-text;
 }
 
 .navbar-toggle {
@@ -33,12 +33,12 @@
 }
 
 .navbar-custom a {
-    color: {{ site.color.text }};
+    color: $color-text;
 }
 
 .navbar-custom .nav li.active {
     outline: none;
-    background-color: {{ site.color.highlight }};
+    background-color: $color-highlight;
 }
 
 .navbar-custom .nav li a {
@@ -51,7 +51,7 @@
 .navbar-custom .nav li a:focus,
 .navbar-custom .nav li a.active {
     outline: 0;
-    background-color: {{ site.color.highlight }};
+    background-color: $color-highlight;
 }
 
 .navbar-brand {
@@ -77,10 +77,10 @@
 
     .top-nav-collapse {
         padding: 0;
-        background-color: {{ site.color.background }};
+        background-color: $color-background;
     }
 
     .navbar-custom.top-nav-collapse {
-        border-bottom: 1px solid {{ site.color.borders }};
+        border-bottom: 1px solid $color-borders;
     }
 }

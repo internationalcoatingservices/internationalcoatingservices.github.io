@@ -2,10 +2,10 @@
     width: 70px;
     height: 70px;
     padding: 7px 16px;
-    border: 2px solid {{ site.color.text }};
+    border: 2px solid $color-text;
     border-radius: 35px;
     font-size: 40px;
-    color: {{ site.color.text}};
+    color: $color-text;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
     -moz-transition: background .3s ease-in-out;
@@ -15,8 +15,8 @@
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
-    color: {{ site.color.text }};
-    background: {{ site.color.highlight }};
+    color: $color-text;
+    background: $color-highlight;
 }
 
 .btn-circle i.animated {

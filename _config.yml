@@ -4,7 +4,7 @@ title: International Coating Services
 email: info@internationalcoatingservices.com
 url: https://www.internationalcoatingservices.com
 baseurl: 
-description: "Protective Coatings Application Specialists"
+description: "Protective Coatings Specialists"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -18,5 +18,8 @@ color:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+sass:
+  style: compressed
 
 host: 0.0.0.0
