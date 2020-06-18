@@ -8,7 +8,7 @@ $color-borders: {{ site.color.borders }};
 $color-highlight: {{ site.color.highlight }};
 $color-selection: {{ site.color.selection }};
 
-$image-ics-logo: "{{ 'assets/img/ICS-logo-black.png' | relative_url }}";
-$image-syf-logo: "{{ 'assets/img/syf-gaps-r1-stroked.svg' | relative_url }}";
+//$image-ics-logo: "{{ 'assets/img/ICS-logo-black.png' | relative_url }}";
+//$image-syf-logo: "{{ 'assets/img/syf-gaps-r1-stroked.svg' | relative_url }}";
 
 @import "base";
